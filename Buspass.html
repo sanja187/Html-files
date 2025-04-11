@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General bus Pass</title>
+</head>
+<body>
+    <center>
+    <img src="./Screenshot 2025-04-10 172143.png">
+    </center>
+    <fieldset>
+        <legend style="background-color: rgb(95, 95, 233); color: aliceblue;"><b>Applicant Details</b></legend>
+        <label style="padding-right: 100px;">Name</label>
+        <input type="text" required >
+        <label style="padding-left: 100px;">Father's/Guardian's Name</label>
+        <input type="text" required><br><br>
+        <label style="padding-right: 100px;">Date of birth</label>
+        <input type="date" required style="width: 130px;">
+        <label style="padding-left: 120px;padding-right: 110px;">Gender</label>
+        <input type="radio" name="gender">
+        <label>Female</label>
+        <input type="radio"  required name="gender">
+        <label>Male</label><br><br>
+        <label style="padding-right: 80px;">Age As on:</label>
+        <input type="number" required style="width: 25px;">
+        <label>Year(s)</label>
+        <input type="number" required style="width: 25px;">
+        <label>Month(s)</label>
+        <input type="number" required style="width: 25px;">
+        <label>Day(s)</label>
+        <label style="padding-left: 100px;">Aadhaar No:</label>
+        <input type="text" minlength="12" maxlength="12" required><br><br>
+        <label style="padding-right: 100px;">WhatsApp No</label>
+        <input type="text" required >
+        <label style="padding-left: 100px;">E-Mail Id</label>
+        <input type="text" required><br><br>
+        <label style="padding-right: 100px;">Photo</label>
+        <input type="file" required>
+    </fieldset><br>
+    <fieldset>
+        <legend style="background-color: rgb(95, 95, 233); color: aliceblue;"><b>Residential Address Details</b></legend>
+        <label style="padding-right: 100px;">Applicant's Address</label>
+        <textarea></textarea>
+        
+        <label style="padding-left: 100px;">District</label>
+        <select placeholder="----select----">
+            <option>----select----</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Jagital">Jagital</option>
+            <option value="Karimnagar">Karimnagar</option>
+            <option value="Nizamabad">Nizamabad</option>
+            <option value="Warangal">Warangal</option>
+        </select><br><br>
+        <label style="padding-right: 180px;">Mandal</label>
+        <select placeholder="----select----">
+            <option>----select----</option>
+            <option value="Metpally">Metpally</option>
+            <option value="Korutla">Korutla</option>
+            <option value="Ibrahimpatnam">Ibrahimpatnam</option>
+            <option value="Jaggasagar">Jaggasagar</option>
+        </select>
+        <label style="padding-left: 160px;">Village</label>
+        <select placeholder="----select----">
+            <option>----select----</option>
+            <option value="Vellulla">Vellulla</option>
+            <option value="Metpally Town">Metpally Town</option>
+            <option value="Metpally">Metpally</option>
+        </select><br><br>
+        <label style="padding-right: 175px;">Pincode</label>
+        <input type="date" required style="width: 130px;">
+    </fieldset><br>
+    <fieldset>
+        <legend style="background-color: rgb(95, 95, 233); color: aliceblue;"><b>Pass Type Details</b></legend>
+        <label style="padding-right: 100px;">District</label>
+        <select placeholder="----select----">
+            <option>----select----</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Jagital">Jagital</option>
+            <option value="Karimnagar">Karimnagar</option>
+            <option value="Nizamabad">Nizamabad</option>
+            <option value="Warangal">Warangal</option>
+        </select><br><br>
+        <label style="padding-right: 100px;">Pass Type</label>
+        <select placeholder="----select----">
+            <option>----select----</option>
+            <option value="Regular">Regular</option>
+            <option value="Week End">Week End</option>
+        </select><br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend style="background-color: rgb(95, 95, 233); color: aliceblue;"><b>Mode of Payment & Pass Collection</b></legend>
+        <label style="padding-right: 100px;">Payment Mode</label>
+        <select placeholder="----select----">
+            <option>----select----</option>
+            <option value="Online">Online</option>
+            <option value="payment at center">Payment at center</option>
+        </select><br><br>
+        <label style="padding-right: 100px;">Center at which you want to Collect Pass</label>
+        <select aria-placeholder="----select----">
+            <option>----select----</option>
+        </select><br><br>
+    </fieldset>
+</body>
+</html>
